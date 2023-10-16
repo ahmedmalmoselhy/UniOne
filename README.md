@@ -16,7 +16,12 @@ I might not be able to finalize every single one of these clones, but I'm excite
 
 ## About this Repository
 
-This repository is just my personal documentations for the project, with links to all other repositories with that house the project with each technology separate, will update this repository with some stuff like database schema, phases of development of each clone, design and APIs documentation
+This repository is just my personal documentations for the project, with links to all other repositories with that house the project with each technology separate, will update this repository with some stuff like database schema, phases of development of each clone, design and APIs documentation.
+
+## Our Team
+
+- [Ahmed Almoselhy](https://github.com/ahmedmalmoselhy)
+- [Ahmed Raslan](https://github.com/ahm3draslan)
 
 ## Contribution & Collaboration
 
