@@ -25,8 +25,7 @@ This repository is just my personal documentations for the project, with links t
 
 ## Contribution & Collaboration
 
-You're very welcome to contribute to this mega project, I'll keep updating this documentation with more and more details about the project and the progress of each clone.
-If you want to participate in this project with any technology, please email me at `ahmedalmoselhy.slm@gmamil.com` and we can have a blast!
+Please read [CONTRIBUTION.md](CONTRIBUTION.md)
 
 Please keep waiting for more updates and details about this project.
 
