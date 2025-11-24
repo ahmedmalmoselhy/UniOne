@@ -1,5 +1,7 @@
 # UniOne
 
+![UniOne](unione.png)
+
 ## Abount UniOne
 
 This is a personal and very dear project to my heart, I've had it in my backlog for a log time, but now I'm officially starting my work on it, this project will have so much details and many many technoligical challanges, which I'm so happy and excited to tackle, and to make matters more exciting, I'll work on this project multiple times wilth more than one framework/technology.
@@ -7,7 +9,7 @@ I might not be able to finalize every single one of these clones, but I'm excite
 
 ## Planned Technoligies
 
-- [PHP Laravel](https://github.com/ahmedmalmoselhy/UniOne-Laravel)
+- PHP Laravel
 - Python Django -ToDo-
 - Java Spring Boot -ToDo-
 - C# .NET -ToDo-
@@ -21,7 +23,6 @@ This repository is just my personal documentations for the project, with links t
 ## Our Team
 
 - [Ahmed Almoselhy](https://github.com/ahmedmalmoselhy)
-- [Ahmed Raslan](https://github.com/ahm3draslan)
 
 ## Contribution & Collaboration
 
