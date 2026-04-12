@@ -10,11 +10,12 @@ I might not be able to finalize every single one of these clones, but I'm excite
 ## Planned Technoligies
 
 - [Laravel](https://github.com/ahmedmalmoselhy/unione_backend)
-- Python Django -ToDo-
+- [Python Django](https://github.com/ahmedmalmoselhy/unione_django)
 - Java Spring Boot -ToDo-
 - C# .NET -ToDo-
-- Ruby on Rails -ToDo-
+- [Ruby on Rails](https://github.com/ahmedmalmoselhy/unione_rails)
 - [Node.js](https://github.com/ahmedmalmoselhy/unione_node)
+- Go -ToDo-
 
 ## About this Repository
 
