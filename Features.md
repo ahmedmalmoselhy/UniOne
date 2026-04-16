@@ -34,18 +34,22 @@
 ## Remaining Work by Port
 
 ### Laravel (unione_backend)
+
 - No required feature gaps.
 - Optional improvements only.
 
 ### Django (unione_django)
+
 - Execute full migration/test validation against target PostgreSQL in connected environments.
 - Finalize production runbooks and staging SMTP validation.
 
 ### Node.js (unione_node)
+
 - Build frontend application (React/TypeScript) for full-stack delivery.
 - Continue TypeScript migration and broaden test depth.
 
 ### Rails (unione_rails)
+
 - Run full migration and rspec validation in a Bundler-enabled environment.
 - Expand request specs for newer endpoints.
 - Finalize Sentry gem installation and extend GraphQL domain coverage.
