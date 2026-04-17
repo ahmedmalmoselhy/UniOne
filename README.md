@@ -14,12 +14,9 @@ UniOne is a comprehensive university management platform designed to unify acade
 - ✅ [Python Django](https://github.com/ahmedmalmoselhy/unione_django) - Production Ready Backend (~99%)
 - ✅ [Node.js (Express)](https://github.com/ahmedmalmoselhy/unione_node) - Production Ready Backend (~99%, frontend pending)
 - ✅ [Ruby on Rails](https://github.com/ahmedmalmoselhy/unione_rails) - Production Ready (~99%)
-
-### Planned Technologies
-
-- ⏳ Java Spring Boot
-- ⏳ C# .NET
-- ⏳ Go
+- ✅ [Java Spring Boot](unione_java) - Initialized
+- ✅ [C# .NET](unione_csharp) - Initialized
+- ✅ [Go](unione_go) - Initialized
 
 ## About This Repository
 
@@ -33,9 +30,9 @@ This repository is the central documentation and coordination hub for all UniOne
 | Django (unione_django) | 🟢 Production Ready (Backend) | ~99% | April 15, 2026 |
 | Node.js (unione_node) | 🟢 Production Ready (Backend) | ~99% backend | April 15, 2026 |
 | Rails (unione_rails) | 🟢 Production Ready | ~99% | April 15, 2026 |
-| Spring Boot | ⏳ Not Started | 0% | - |
-| .NET | ⏳ Not Started | 0% | - |
-| Go | ⏳ Not Started | 0% | - |
+| Spring Boot (unione_java) | 🟡 Initialized | ~5% | April 17, 2026 |
+| .NET (unione_csharp) | 🟡 Initialized | ~5% | April 17, 2026 |
+| Go (unione_go) | 🟡 Initialized | ~5% | April 17, 2026 |
 
 ## Remaining Work Snapshot
 
