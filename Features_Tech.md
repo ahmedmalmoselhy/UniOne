@@ -14,24 +14,24 @@ This file is a verified implementation snapshot across all active UniOne backend
 
 ## Category-Level Availability
 
-| Category | Laravel | Django | Node.js | Rails |
-| --- | --- | --- | --- | --- |
-| Authentication and RBAC | ✅ | ✅ | ✅ | ✅ |
-| Organization Management | ✅ | ✅ | ✅ | ✅ |
-| Academic Catalog | ✅ | ✅ | ✅ | ✅ |
-| People Management | ✅ | ✅ | ✅ | ✅ |
-| Student Portal | ✅ | ✅ | ✅ | ✅ |
-| Professor Portal | ✅ | ✅ | ✅ | ✅ |
-| Communication and Notifications | ✅ | ✅ | ✅ | ✅ |
-| Admin CRUD Portal | ✅ | ✅ | ✅ | ✅ |
-| Data Import (CSV/Excel) | ✅ | ✅ | ✅ | ✅ |
-| Data Export | ✅ | ✅ | ✅ | ✅ |
-| Webhooks and Integrations | ✅ | ✅ | ✅ | ✅ |
-| Analytics and Reporting | ✅ | ✅ | ✅ | ✅ |
-| Audit and Compliance | ✅ | ✅ | ✅ | ✅ |
-| Performance and Infrastructure | ✅ | ✅ | ✅ | ✅ |
-| CI/CD Pipeline | ✅ | ✅ | ✅ | ✅ |
-| Deployment Readiness | ✅ | ✅ | ✅ | ✅ |
+| Category | Laravel | Django | Node.js | Rails | Go |
+| --- | --- | --- | --- | --- | --- |
+| Authentication and RBAC | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Organization Management | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Academic Catalog | ✅ | ✅ | ✅ | ✅ | ❌ |
+| People Management | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Student Portal | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Professor Portal | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Communication and Notifications | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Admin CRUD Portal | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Data Import (CSV/Excel) | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Data Export | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Webhooks and Integrations | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Analytics and Reporting | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Audit and Compliance | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Performance and Infrastructure | ✅ | ✅ | ✅ | ✅ | ❌ |
+| CI/CD Pipeline | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Deployment Readiness | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 ---
 
@@ -56,11 +56,16 @@ This file is a verified implementation snapshot across all active UniOne backend
 - Feature parity and enhancement wave completed.
 - Remaining work is operational: execution of validation in Bundler-enabled environment.
 
+### Go (unione_go)
+
+- Project recently initialized.
+- Full implementation of all backend modules is pending.
+
 ---
 
 ## Scope Clarification
 
 - This document represents active backend repositories only.
-- Planned future stacks (Spring Boot, .NET, Go) are not included in this matrix.
+- Planned future stacks (Spring Boot, .NET) are not included in this matrix.
 
-## Last Updated: April 15, 2026
+## Last Updated: April 17, 2026
