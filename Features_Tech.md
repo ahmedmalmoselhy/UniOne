@@ -16,22 +16,22 @@ This file is a verified implementation snapshot across all active UniOne backend
 
 | Category | Laravel | Django | Node.js | Rails | Go | Java | C# |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Authentication and RBAC | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Organization Management | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Academic Catalog | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| People Management | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Authentication and RBAC | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Organization Management | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Academic Catalog | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
+| People Management | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | Student Portal | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Professor Portal | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Communication and Notifications | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Communication and Notifications | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | Admin CRUD Portal | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Data Import (CSV/Excel) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Data Import (CSV/Excel) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | Data Export | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Webhooks and Integrations | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Analytics and Reporting | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Audit and Compliance | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Performance and Infrastructure | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Performance and Infrastructure | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | CI/CD Pipeline | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Deployment Readiness | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Deployment Readiness | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 
 ---
 
@@ -58,8 +58,8 @@ This file is a verified implementation snapshot across all active UniOne backend
 
 ### Go (unione_go)
 
-- Project recently initialized.
-- Full implementation of all backend modules is pending.
+- Working auth, organization CRUD, employee flows, student Excel import, selected academic endpoints, and announcement creation are implemented.
+- Broader student/professor/admin APIs, webhooks, analytics, exports, and tests are still pending.
 
 ### Java (unione_java)
 
@@ -77,4 +77,4 @@ This file is a verified implementation snapshot across all active UniOne backend
 
 - This document represents active backend repositories only.
 
-## Last Updated: April 17, 2026
+## Last Updated: April 21, 2026
