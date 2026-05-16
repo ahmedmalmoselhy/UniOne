@@ -14,12 +14,12 @@
 | 8 | Create/Manage group projects | ✅ Full CRUD + members | ✅ Full CRUD + members | ✅ Full CRUD + members | ✅ Full CRUD + members | ✅ Full CRUD + members |
 | 9 | Manage courses and lectures | ✅ Full CRUD + prerequisites | ✅ Full CRUD + prerequisites | ✅ Full CRUD + prerequisites | ✅ Full CRUD + prerequisites | ✅ Full CRUD + prerequisites |
 | 10 | Manage Employees | ✅ Full CRUD | ✅ Full CRUD | ✅ Full CRUD | ✅ Full CRUD | ✅ Faculty employee CRUD implemented |
-| 11 | Publish announcements | ✅ Global + section-scoped | ✅ Global + section-scoped | ✅ Global + section-scoped | ✅ Global + section-scoped | ⚠️ Create endpoint implemented |
-| 12 | Send announcements via email | ✅ Email + in-app notifications | ✅ Email + in-app notifications | ✅ Email + in-app notifications | ✅ Email + in-app notifications | ⚠️ Notification service wiring exists; delivery breadth not yet at parity |
+| 11 | Publish announcements | ✅ Global + section-scoped | ✅ Global + section-scoped | ✅ Global + section-scoped | ✅ Global + section-scoped | ✅ Global/faculty/section scoped |
+| 12 | Send announcements via email | ✅ Email + in-app notifications | ✅ Email + in-app notifications | ✅ Email + in-app notifications | ✅ Email + in-app notifications | ✅ Email + in-app notifications |
 | 13 | Publish exams schedule | ✅ With conflict detection | ✅ With publish workflow | ✅ With publish workflow | ✅ With conflict detection | ✅ Publish workflow implemented |
-| 14 | Send exams schedule via email | ✅ Email on publish | ✅ Email on publish | ✅ Email on publish | ✅ Email on publish | ❌ Not started |
-| 15 | Publish final grades | ✅ Professor submission | ✅ Professor submission | ✅ Professor submission | ✅ Professor submission | ⚠️ Grade import exists; full professor grading workflow not exposed |
-| 16 | Send final grades via email | ✅ Email on publication | ✅ Email on publication | ✅ Email on publication | ✅ Email on publication | ❌ Not started |
+| 14 | Send exams schedule via email | ✅ Email on publish | ✅ Email on publish | ✅ Email on publish | ✅ Email on publish | ✅ Notification flow implemented |
+| 15 | Publish final grades | ✅ Professor submission | ✅ Professor submission | ✅ Professor submission | ✅ Professor submission | ✅ Professor grading workflow implemented |
+| 16 | Send final grades via email | ✅ Email on publication | ✅ Email on publication | ✅ Email on publication | ✅ Email on publication | ✅ Notification flow implemented |
 | 17 | Group students by University/Faculty/Department/Course | ✅ Full hierarchy | ✅ Full hierarchy | ✅ Full hierarchy | ✅ Full hierarchy | ✅ Organization hierarchy implemented |
 
 ## Implementation Status by Version
@@ -30,7 +30,7 @@
 | Django (unione_django) | 🟢 Production Ready (Backend) | ~100% | Feature parity and production hardening complete |
 | Node.js (unione_node) | 🟢 Production Ready (Backend) | ~99% backend | Backend feature set complete; frontend app still pending |
 | Rails (unione_rails) | 🟢 Production Ready | ~100% | Feature parity and enhancement wave completed |
-| Go (unione_go) | 🟡 Expanded Backend Implementation | ~65% | Working auth, admin/student/professor APIs, academic management, imports, and announcements |
+| Go (unione_go) | 🟢 Production Ready - Full Parity | ~100% | Complete backend parity with portals, admin APIs, imports/exports, webhooks, analytics, audit, CI, Swagger, and tests |
 
 ## Remaining Work by Port
 
@@ -43,10 +43,9 @@
 
 ### Go (unione_go)
 
-- Implement communication inbox/read-tracking flows and broader delivery features.
-- Implement webhooks, exports, analytics, and automated tests.
-- Continue production hardening and parity validation.
+- No required feature gaps remain.
+- Continue normal production validation and maintenance.
 
 ## Notes
 ...
-## Last Updated: April 24, 2026
+## Last Updated: May 16, 2026
